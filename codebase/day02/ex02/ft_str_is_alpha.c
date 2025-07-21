@@ -18,7 +18,7 @@ int	ft_str_is_alpha(char *str)
 
 	while( *(str+n) != '\0')
 	{
-		if( *(str+n) < 65  ||  *(str+n) > 90 && *(str+n) <  97 ||  *(str+n) > 122)
+		if(*(str+n) < 65 || *(str+n) > 90 && *(str+n) < 97 || *(str+n) > 122)
 		{
 			return (0);
 		}
