@@ -34,7 +34,7 @@ int	ft_atoi(char *str)
 int main(void)
 {
 	char *result;
-	result = "  --+-12456";
+	result = "  --+-12faio/456";
 	int atoii;
 	atoii = ft_atoi(result);
 
